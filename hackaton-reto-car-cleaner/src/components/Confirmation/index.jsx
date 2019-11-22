@@ -1,6 +1,8 @@
 import React from 'react';
 import {Button, HeaderModal} from '../index';
 
+import './style.css';
+
 const Confirmation = ({washType, address, car, cost}) => {
     return(
         <div className="layer">
