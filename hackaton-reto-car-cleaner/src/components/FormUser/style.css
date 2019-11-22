@@ -1,0 +1,16 @@
+.google-btn {
+    width: 180px;
+    height: 30px;
+    border-radius: 40px;
+    background-color: transparent;
+    border-color: black;
+}
+
+.register-user {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background: url(../../images/emile-guillemot-ci7gkM_29wA-unsplash.png);
+}
