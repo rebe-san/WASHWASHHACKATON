@@ -1,8 +1,10 @@
 .modal-confirmation {
-    background-color: white;
-    height: 70vh;
     width: 85%;
+    height: 70vh;
     position: relative;
+    border-radius: 10px;
+    background-color: white;
+    padding: 1rem;
 }
 
 .layer {
@@ -10,5 +12,9 @@
     width: 100%;
     display: flex;
     align-items: center;
+    position: absolute;
+    display: flex;
     justify-content: center;
+    z-index: 3;
+    background-image: url('../../images/emile-guillemot-ci7gkM_29wA-unsplash.png');
 }
