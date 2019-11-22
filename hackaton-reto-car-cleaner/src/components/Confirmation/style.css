@@ -18,3 +18,7 @@
     z-index: 3;
     background-image: url('../../images/emile-guillemot-ci7gkM_29wA-unsplash.png');
 }
+
+.hide {
+    display: none;
+}
