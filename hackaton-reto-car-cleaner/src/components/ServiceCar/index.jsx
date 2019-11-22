@@ -8,8 +8,8 @@ const ServiceCar = () =>{
             <p>Tu coche esta en...</p>
             <h5>Angus Dr. #2, Delegación Benito Juarez</h5>
 
-            <button className = "buttonServiceClass">Calle</button>
-            <button>Domicilio</button>
+            <button className = "buttonServiceCar">Calle</button>
+            <button className = "buttonServiceCar">Domicilio</button>
 
             <p>Selecciona tu paquete</p>
 
