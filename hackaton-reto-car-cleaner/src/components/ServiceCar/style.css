@@ -1,0 +1,59 @@
+h5{
+    color: #AFAEAE;
+}
+.buttonServiceCar{
+    
+    background: white;
+    border-radius: 30px;
+    width: 88px;
+    height: 32px;
+    border: solid gray 1px;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    color: #4D4F5C;
+}
+.buttonServiceCar2{
+   
+    background: white;
+    border-radius: 12px;
+    width: 67px;
+    height: 47px;
+    border: solid gray 1px;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    color: #4D4F5C;
+
+}
+.contentServiceCar{
+    background: white;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contentButton{
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    justify-content: space-around;
+}
+.buttonServiceCarContent{
+    display: flex;
+    flex-direction: column;
+    
+}
+.enlaceServiceCar{
+    color: #525151;
+    font-size: 8px;
+}
+.contentButtonserviceCar2{
+    flex-direction: column;
+}
