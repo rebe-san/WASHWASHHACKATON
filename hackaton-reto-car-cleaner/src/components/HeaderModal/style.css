@@ -1,0 +1,13 @@
+.header-modal {
+    height: 50px;
+    width: 100%;
+    display: flex;
+}
+
+.header-modal span {
+    margin: 0.5rem;
+}
+
+.header-modal figure img {
+    height: 30px;
+}
