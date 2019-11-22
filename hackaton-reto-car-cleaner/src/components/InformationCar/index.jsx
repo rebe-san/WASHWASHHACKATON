@@ -7,12 +7,12 @@ import Button from '../Button'
 import HeaderModal from '../../components/HeaderModal'
 
 const Select = ({name, value}) =>{
-   return (
-    <div className="moda-confirmation">  
+   return (   
+    <div className="layer">  
     <HeaderModal /> 
     <section className="modal-confirmation">
        <p class="txt-confirm">Angus Dr. #2, Del. Benito Juárez</p>
-  <p>Elige las características de tu coche:</p>
+  <p class ="txt-confirm">Elige las características de tu coche:</p>
 </section>
 <section className="selects">
     Marca:
@@ -34,7 +34,9 @@ const Select = ({name, value}) =>{
        value={value}
        /> 
 </section>
+<section className="input-placa">
 <input type="text" className="placas" placeholder="Placa No."></input>
+</section>
 <section class="btn-reg-car">
 <input className="button"  value="Aceptar" /> 
 </section>
