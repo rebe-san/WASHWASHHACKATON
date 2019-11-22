@@ -44,8 +44,6 @@ const RegisterEmployee = ({signInWithEmailAndPassword,
          .catch(error => alert(error.message))
     }
 
-
-    
     return (
         <section className="register-employee">
             <FormEmployee
