@@ -3,7 +3,6 @@ import './style.css';
 // import Button from '../../components/Button';
 import {Link} from 'react-router-dom';
 import Logo from '../../images/logowash.png'
-import CreditCard from '../../components/CreditCard'
 
 const Welcome = () => {
     return(
@@ -22,7 +21,6 @@ const Welcome = () => {
           </Link>
         </nav>  
         </div>
-        <CreditCard/>
       </section> 
     )
 }
