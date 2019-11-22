@@ -38,7 +38,7 @@ const Select = ({name, value}) =>{
 <input type="text" className="placas" placeholder="Placa No."></input>
 </section>
 <section class="btn-reg-car">
-<input className="button"  value="Aceptar" /> 
+<input className="button button-car"  value="Aceptar" /> 
 </section>
 
 </div> 
