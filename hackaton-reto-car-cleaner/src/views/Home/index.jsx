@@ -15,6 +15,7 @@ const Home = () => {
             <img src={logo} alt="imagen-logo" />
             <Input type="text" placeholder="Escribe una dirección"/>
           </div>
+        <BoxWeather />
         <MapComponent />
         <div className="button-container">
           <Button text="PEDIR SERVICIO" className="button-service"/>

@@ -1,0 +1,19 @@
+.box-weather{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding : 10px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    color:black;
+    width: 299px;
+    height: 68px;
+}
+
+.box-weather p {
+    margin: 10px;
+}
+
+.box-weather img {
+    margin: 10px;
+}

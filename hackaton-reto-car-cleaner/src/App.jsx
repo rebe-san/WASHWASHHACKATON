@@ -8,7 +8,7 @@ function App() {
     
   return (
     
-    <Router /* basename={window.location.pathname || ''}  */>
+    <Router basename={window.location.pathname || ''}  />
       <Switch>
         <Route exact path = "/" render = {props => <Welcome/>}></Route> 
         <Route exact path = "/registerUser" render = {props => <RegisterUser/>}></Route>
