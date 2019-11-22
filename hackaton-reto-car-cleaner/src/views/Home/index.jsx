@@ -1,5 +1,5 @@
 import React from "react";
-import { MapComponent, Button, Input, Confirmation, CreditCard } from "../../components";
+import { MapComponent, Button, Input, Confirmation, CreditCard , BoxWeather} from "../../components";
 import logo from "../../images/logowash.png";
 import "./style.css";
 
