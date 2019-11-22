@@ -17,11 +17,16 @@ const MapComponent = () => {
     )
 
     return (
-        <ReactMapGL
-            {...viewport}
-            onViewportChange={(viewport)=> setViewport(viewport)}
-            mapboxApiAccessToken={process.env.REACT_APP_MAP_KEY}
-        />     
+        <div> 
+            <ReactMapGL {...viewport}
+                onViewportChange={(viewport)=> setViewport(viewport)}
+                mapboxApiAccessToken={process.env.REACT_APP_MAP_KEY}>
+                <GeolocateControl
+                    positionOptions={{enableHighAccuracy: true}}
+                    trackUserLocation={true}
+                />  
+            </ReactMapGL> 
+        </div>
 
     )
   }
