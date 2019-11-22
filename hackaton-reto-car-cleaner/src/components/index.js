@@ -6,5 +6,8 @@ import FormEmployee from './FormEmployee';
 import Confirmation from './Confirmation';
 import HeaderModal from './HeaderModal';
 import BoxWeather from './BoxWeather';
+import Select from './InformationCar';
+import CreditCard from './CreditCard';
 
-export { Input, FormEmployee, MapComponent, Button, Confirmation, FormUser, HeaderModal ,BoxWeather}
+export { Input, FormEmployee, MapComponent, Button, Confirmation, FormUser, HeaderModal ,BoxWeather, CreditCard, Select}
+

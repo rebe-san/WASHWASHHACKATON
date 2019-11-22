@@ -1,23 +1,27 @@
 import React from "react";
-import { MapComponent } from "../../components";
-import { Button } from "../../components";
-import { Input } from "../../components";
-import { BoxWeather } from "../../components";
-
+import { MapComponent, Button, Input, Confirmation, CreditCard } from "../../components";
 import logo from "../../images/logowash.png";
 import "./style.css";
 
 const Home = () => {
   return (
-    <section className="home">
-      <div className="input-home">
-        <img src={logo} alt="imagen-logo" />
-        <Input type="text" placeholder="Escribe una dirección" />
+    <main>
+      <div className="modal-container hide">
+        <Confirmation/>
+        <CreditCard/>
       </div>
-      <BoxWeather />
-      <MapComponent />
-      <Button text="PEDIR SERVICIO" className="button-service" />
-    </section>
+      <section className="home">
+          <div className="input-home">
+            <img src={logo} alt="imagen-logo" />
+            <Input type="text" placeholder="Escribe una dirección"/>
+          </div>
+        <BoxWeather />
+        <MapComponent />
+        <div className="button-container">
+          <Button text="PEDIR SERVICIO" className="button-service"/>
+        </div>
+      </section>
+    </main>
   );
 };
 

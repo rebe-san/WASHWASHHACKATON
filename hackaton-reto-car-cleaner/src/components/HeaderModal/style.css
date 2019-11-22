@@ -1,13 +1,26 @@
 .header-modal {
-    height: 50px;
     width: 100%;
+    height: 110px;
     display: flex;
+    flex-direction: column;
+    overflow: hidden;
 }
 
 .header-modal span {
-    margin: 0.5rem;
+    margin: 0;
 }
 
 .header-modal figure img {
-    height: 30px;
+    height: 100%;
+}
+
+.header-modal figure {
+    height: 80px;
+    overflow: hidden;
+    margin: 0;
+}
+
+.arrow {
+    font-size: 1.5rem;
+    color: #707070;
 }

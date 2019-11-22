@@ -8,8 +8,8 @@ import dotenv from "dotenv"
 const MapComponent = () => {
     const [viewport, setViewport] = useState(
         {
-            width: 400,
-            height: 450,
+            width: 380,
+            height: 420,
             latitude: 37.7577,
             longitude: -122.4376,
             zoom: 8
