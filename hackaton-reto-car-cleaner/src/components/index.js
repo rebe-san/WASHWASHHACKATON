@@ -4,5 +4,6 @@ import FormUser from './FormUser';
 import MapComponent from './Map/index';
 import FormEmployee from './FormEmployee';
 import Confirmation from './Confirmation';
+import HeaderModal from './HeaderModal';
 
-export { Input, FormEmployee, MapComponent, Button, Confirmation, FormUser }
+export { Input, FormEmployee, MapComponent, Button, Confirmation, FormUser, HeaderModal }
