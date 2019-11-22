@@ -4,7 +4,7 @@ import "./style.css";
 const ServiceCar = () =>{
 
     return(
-        <section className = "modal-confirmation ">
+        <section className = "modal-confirmation">
             <section className= "layer contentServiceCar">
                 <p>Tu coche esta en...</p>
             <h5>Angus Dr. #2, Delegación Benito Juarez</h5>
