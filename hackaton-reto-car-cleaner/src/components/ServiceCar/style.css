@@ -1,13 +1,36 @@
 .buttonServiceCar{
-    width: 80%;
+    
     background: white;
     border-radius: 30px;
-    width: 85%;
-    border: none;
-    color: white;
+    width: 88px;
+    height: 32px;
+    border-block-color: gray;
     padding: 0.5rem;
     margin-top: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.buttonServiceCar2{
+   
+    background: white;
+    border-radius: 12px;
+    width: 67px;
+    height: 47px;
+    border: solid gray;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.contentServiceCar{
+    background: white;
+    display:flex;
+    flex-wrap: nowrap;
+}
+.contentButton{
+    display: flex;
+    align-content: space-between
 }
