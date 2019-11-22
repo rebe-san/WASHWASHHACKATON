@@ -3,10 +3,10 @@ import {Button} from '../index';
 
 const Confirmation = ({washType, address, car, cost}) => {
     return(
-        <article>
+        <article className="modal-confirmation">
             <span></span>
             <figure>
-                <img/>
+                <img alt=""/>
             </figure>
             <p>{washType}</p>
             <p>{address}</p>
