@@ -4,6 +4,7 @@ import './style.css';
 import {Link} from 'react-router-dom';
 import Logo from '../../images/logowash.png'
 
+
 const Welcome = () => {
     return(
       <section className="background-welcome">
@@ -20,6 +21,7 @@ const Welcome = () => {
             Técnico de lavado
           </Link>
         </nav>  
+
         </div>
       </section> 
     )
