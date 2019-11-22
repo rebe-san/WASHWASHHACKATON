@@ -1,6 +1,7 @@
-DELIVERY DE LAVADO DE AUTOS.
+### DELIVERY DE LAVADO DE AUTOS.
 
-Reto:
+## Reto:
+
 Este reto nos lo trae es una startup dedicada al lavado de autos a domicilio, lo cual significa que no tiene un establecimiento fijo. 
 Actualmente el servicio de lavado de coches es solicitado a través de Whatsapp o por llamada telefónica. Ana, la dueña de startup, asigna a un trabajador para que se presente en la ubicación solicitada. No cuenta con registro exacto de quién o cómo se solicitó el servicio y tampoco puede atender algunas quejas o sugerencias de cada servicio ya que le es imposible rastrear a quien se asignó cada servicio. 
 Ella se ha acercado a ustedes como equipo de diseño y desarrollo digital para que puedan transformar su negocio en un negocio escalable y con más visibilidad. 
@@ -37,10 +38,5 @@ HACKER EDITION
 ● Uso de GRAPHQL, Apollo y MongoDB https://medium.com/@lachlanmiller_52885/graphql-basics-and-practical-exampl es-with-vue-6b649b9685e0 
 https://vue-apollo.netlify.com/ 
 ● Integrar el pago del servicio a traves de Paypal https://developer.paypal.com/docs/api-basics/ 
-
-
-
-
-
 
 
