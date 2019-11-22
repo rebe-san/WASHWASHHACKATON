@@ -39,8 +39,6 @@ const ServiceCar = () =>{
             </section>
 
             </section>
-            
-
 
         </section>
     )
