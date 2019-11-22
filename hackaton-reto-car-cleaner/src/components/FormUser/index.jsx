@@ -1,11 +1,12 @@
 import React from "react";
+import {Link} from 'react-router-dom';
+
 import { Input } from '../';
-import * as firebase from 'firebase/app';
 import 'firebase/auth';
-import withFirebaseAuth, { WrappedComponentProps } from 'react-with-firebase-auth';
-import "./style.css";
-import Button from '../Button/index'
+import * as firebase from 'firebase/app';
+import withFirebaseAuth from 'react-with-firebase-auth';
 import firebaseApp from '../../firebaseInitialize'
+import "./style.css";
 
 
 
@@ -18,7 +19,7 @@ const FormUser = ( props ) => {
         passwordUser,
         confirmPasswordUser,
         handleChange,
-        registerUserInFirebase,
+        // registerUserInFirebase,
         signInWithGoogle
         } = props;
 
@@ -65,8 +66,9 @@ const FormUser = ( props ) => {
             <div> 
                <button className="google-btn" onClick={signInWithGoogle}>Inicia sesión con Google</button>
             </div>
-            <input className="button" onClick={registerUserInFirebase} type ="submit" value="Aceptar" />   
-        </form >
+            {/* <input className="button" onClick={registerUserInFirebase} type ="submit" value="Aceptar" />    */}
+            <Link to="/home" className="button">Aceptar</Link>
+</form >
     )
 
 }
