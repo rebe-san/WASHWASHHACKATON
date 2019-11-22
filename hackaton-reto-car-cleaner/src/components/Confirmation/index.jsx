@@ -1,5 +1,5 @@
 import React from 'react';
-import Button from '';
+import {Button} from '../index';
 
 const Confirmation = ({washType, address, car, cost}) => {
     return(
