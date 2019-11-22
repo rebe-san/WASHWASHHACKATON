@@ -1,12 +1,15 @@
 import React from "react";
-import { MapComponent, Button, Input, Confirmation } from "../../components";
+import { MapComponent, Button, Input, Confirmation, CreditCard } from "../../components";
 import logo from "../../images/logowash.png";
 import "./style.css";
 
 const Home = () => {
   return (
     <main>
-      <Confirmation className="hide"/>
+      <div className="modal-container hide">
+        <Confirmation/>
+        <CreditCard/>
+      </div>
       <section className="home">
           <div className="input-home">
             <img src={logo} alt="imagen-logo" />
