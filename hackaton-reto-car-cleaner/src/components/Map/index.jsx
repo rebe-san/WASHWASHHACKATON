@@ -1,6 +1,6 @@
 import React, {useState} from "react"
 import './style.css'
-import ReactMapGL from 'react-map-gl';
+import ReactMapGL, {GeolocateControl} from 'react-map-gl';
 
 import dotenv from "dotenv"
  dotenv.config()
@@ -9,7 +9,7 @@ const MapComponent = () => {
     const [viewport, setViewport] = useState(
         {
             width: 400,
-            height: 400,
+            height: 450,
             latitude: 37.7577,
             longitude: -122.4376,
             zoom: 8
